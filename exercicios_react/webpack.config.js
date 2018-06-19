@@ -10,6 +10,9 @@ module.exports = {
         port: 8080,
         contentBase: './public' // não sei o que é ContentBase -> pesquisar
     },
+    resolve: {
+        extensions: ['', '.js', '.jsx'] // permite importar arquivos sem especificar a extensão
+    },
     module: {
         loaders: [{
             test: /.jsx?$/, // entender expressões regulares
