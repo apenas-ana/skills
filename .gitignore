@@ -1,2 +1,5 @@
 exercicios_webpack/node_modules
 exercicios_webpack/*.log
+
+exercicios_react/node_modules
+exercicios_react/*.log
